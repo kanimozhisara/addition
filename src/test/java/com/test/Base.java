@@ -14,9 +14,14 @@ public class Base {
 		driver.get("https://www.amazon.in/");
 
 	}
-	
+
 	public static void maximize() {
 		driver.manage().window().maximize();
+
+	}
+
+	public static void printUrl() {
+		driver.getCurrentUrl();
 
 	}
 }
