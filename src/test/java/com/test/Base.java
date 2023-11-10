@@ -14,6 +14,7 @@ public class Base {
 		driver.get("https://www.amazon.in/");
 		
 		System.out.println("Edge Drvier Logics added");
+		System.out.println("safari Drvier Logics added");
 
 	}
 
