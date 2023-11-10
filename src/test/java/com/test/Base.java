@@ -12,6 +12,9 @@ public class Base {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/");
+		
+		System.out.println("Edge Drvier Logics added");
+		System.out.println("safari Drvier Logics added");
 
 	}
 
